@@ -7,5 +7,5 @@
     files: \.liq$,
     args: []
     require_serial: false
-    additional_dependencies: ["prettier-plugin-liquidsoap"]
+    additional_dependencies: ["prettier-plugin-liquidsoap@1.4.0"]
     minimum_pre_commit_version: '0'
