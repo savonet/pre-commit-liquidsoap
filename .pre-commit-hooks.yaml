@@ -1,10 +1,11 @@
--   id: prettier
-    name: prettier
+-   id: liquidsoap-prettier
+    name: liquidsoap-prettier
     description: ''
-    entry: prettier --write --list-different --ignore-unknown
+    entry: liquidsoap-prettier --write
     language: node
     'types': [text]
+    files: \.liq$,
     args: []
     require_serial: false
-    additional_dependencies: ["prettier@3.0.3"]
+    additional_dependencies: ["prettier-plugin-liquidsoap"]
     minimum_pre_commit_version: '0'
