@@ -3,7 +3,6 @@
     description: 'Liquidsoap script formatter'
     entry: liquidsoap-prettier --write
     language: node
-    'types': [text]
     files: "\\.liq$"
     args: []
     require_serial: false
