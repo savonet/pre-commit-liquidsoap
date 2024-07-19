@@ -3,8 +3,5 @@
     description: 'Liquidsoap script formatter'
     entry: liquidsoap-prettier --write
     language: node
-    files: "\\.liq$"
-    args: []
-    require_serial: false
+    files: \.liq$
     additional_dependencies: ["liquidsoap-prettier@1.5.4"]
-    minimum_pre_commit_version: '0'
