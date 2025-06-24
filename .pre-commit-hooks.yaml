@@ -4,4 +4,4 @@
     entry: liquidsoap-prettier --write
     language: node
     files: \.liq$
-    additional_dependencies: ["liquidsoap-prettier@1.5.6"]
+    additional_dependencies: ["liquidsoap-prettier@1.5.7"]
